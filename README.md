@@ -2,10 +2,20 @@
     <img src=".github/project-logo.svg" width="512px">
 </h1>
 
-# Project Template
+# PHP-FPM Advanced
 
-This repository provides a project template containing community health files for
-the [@sw-in-containers](https://github.com/sw-in-containers/) organization.
+This repository contains the source code of a PHP-FPM image which was optimized for the use with Shopware.
+
+The changes to this image add support for Redis session storage and RabbitMQ.
+
+## Added PHP extensions
+
+* ampq
+* redis
+
+## Redis dependency
+
+This image expects Redis to run from a service by the name of `redis-session` on port `6379`.
 
 ## Feel like contributing?
 
