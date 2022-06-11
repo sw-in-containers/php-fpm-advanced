@@ -20,8 +20,8 @@ This image expects Redis to run from a service by the name of `redis-session` on
 ## Feel like contributing?
 
 Read our [contribution guidelines](CONTRIBUTING.md) and create
-an [issue](https://github.com/sw-in-containers/project-template/issues/new/choose) or
-a [pull request](https://github.com/sw-in-containers/project-template/compare).
+an [issue](https://github.com/sw-in-containers/php-fpm-advanced/issues/new/choose) or
+a [pull request](https://github.com/sw-in-containers/php-fpm-advanced/compare).
 
 ## License
 
